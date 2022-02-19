@@ -16,15 +16,18 @@
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--body-background);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+.main {
   background-image: url('../assets/background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 100vh;
   min-width: 100vw;
-
-  color: var(--text-color);
 }
 
 .container {

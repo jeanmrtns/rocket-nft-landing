@@ -4,10 +4,18 @@ import { Header } from "../components/Header";
 
 export default function Home() {
   return (
-    <main className="container">
-      <Header />
-      <Banner />
-      <Galery />
-    </main>
+    <>
+      <main className="main">
+        <section className="container">
+          <Header />
+          <Banner />
+          <Galery />
+        </section>
+      </main>
+    
+      <section>
+        
+      </section>
+    </>
   )
 }
