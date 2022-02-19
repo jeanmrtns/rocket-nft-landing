@@ -1,3 +1,4 @@
+import { Artists } from "../components/Artists";
 import { Banner } from "../components/Banner";
 import { Galery } from "../components/Galery";
 import { Header } from "../components/Header";
@@ -18,6 +19,7 @@ export default function Home() {
       <section className="container">
         <Metrics />
         <Populars />
+        <Artists />
       </section>
     </>
   )
