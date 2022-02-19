@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  p {
+    text-align: center;
+    color: var(--subtitle-color);
+
+    strong {
+      display: block;
+      font-size: 3rem;
+      color: var(--text-color);
+    }
+  }
+}
+
+.postsContainer {
+  border-left: 1px solid var(--card-color);
+}
+
+.posts {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 5rem;
+}
+
+.post {
+  margin-left: 4rem;
+  a {
+    display: block;
+    margin-top: 4rem;
+  }
+}
