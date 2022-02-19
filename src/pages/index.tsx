@@ -1,5 +1,6 @@
 import { Artists } from "../components/Artists";
 import { Banner } from "../components/Banner";
+import { Footer } from "../components/Footer";
 import { Galery } from "../components/Galery";
 import { Header } from "../components/Header";
 import { Metrics } from "../components/Metrics";
@@ -9,8 +10,8 @@ export default function Home() {
   return (
     <>
       <main className="main">
+        <Header />
         <section className="container">
-          <Header />
           <Banner />
           <Galery />
         </section>
@@ -21,6 +22,7 @@ export default function Home() {
         <Populars />
         <Artists />
       </section>
+      <Footer />
     </>
   )
 }
