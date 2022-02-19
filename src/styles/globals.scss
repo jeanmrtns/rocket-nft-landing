@@ -59,3 +59,19 @@ button {
     filter: opacity(0.9);
   }
 }
+ /* width */
+ body::-webkit-scrollbar {
+  width: 4px;
+  background-color: var(--body-background);
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-logo);
+  border-radius: 10px;
+} 
