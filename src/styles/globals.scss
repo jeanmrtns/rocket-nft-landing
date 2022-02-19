@@ -1,0 +1,61 @@
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0D0D0D;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  background-image: url('../assets/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  color: var(--text-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1277px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+
+  strong {
+    color: var(--color-logo);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  transition: filter 0.3s;
+
+  &:hover {
+    filter: opacity(0.9);
+  }
+}
