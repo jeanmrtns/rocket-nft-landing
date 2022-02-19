@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  gap: 2rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 401px;
+
+  div {
+    display: flex;
+    align-items: flex-end;
+
+    p {
+      margin-left: 0.4rem;
+    }
+
+    p > strong {
+      display: block;
+      color: var(--text-color);
+    }
+  }
+}
+
+.badgeContainer {
+  display: flex;
+
+  p {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+}
