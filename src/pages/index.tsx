@@ -2,6 +2,7 @@ import { Banner } from "../components/Banner";
 import { Galery } from "../components/Galery";
 import { Header } from "../components/Header";
 import { Metrics } from "../components/Metrics";
+import { Populars } from "../components/Populars";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     
       <section className="container">
         <Metrics />
+        <Populars />
       </section>
     </>
   )

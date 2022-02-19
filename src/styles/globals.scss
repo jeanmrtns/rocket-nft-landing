@@ -21,6 +21,10 @@ body {
   overflow-x: hidden;
 }
 
+strong {
+  color: var(--color-logo);
+}
+
 .main {
   background-image: url('../assets/background.png');
   background-repeat: no-repeat;
